@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative AI Hackathon 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            height: 100%;
+            font-family: 'Press Start 2P', monospace;
+            overflow: hidden;
+        }
+        
+        .slide-container {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #8A2BE2 0%, #4A00E0 20%, #0099CC 50%, #00D4AA 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .main-title {
+            text-align: center;
+            color: #00FF88;
+            font-weight: normal;
+            text-shadow: 
+                0 0 20px rgba(0, 255, 136, 0.5),
+                2px 2px 0px #000,
+                4px 4px 0px rgba(0, 0, 0, 0.5);
+            letter-spacing: 6px;
+            line-height: 1.2;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+            text-rendering: geometricPrecision;
+            font-smooth: never;
+            -webkit-font-smoothing: none;
+        }
+        
+        .title-line1 {
+            font-size: clamp(2.5rem, 7vw, 5rem);
+            margin-bottom: 0.3em;
+        }
+        
+        .title-line2 {
+            font-size: clamp(2.5rem, 7vw, 5rem);
+        }
+        
+        .logos-container {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            opacity: 0.9;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #4A00E0;
+            font-size: 12px;
+        }
+        
+        .academy-logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .academy-icon {
+            font-size: 24px;
+        }
+        
+        .munster-logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .munster-lines {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        
+        .munster-line {
+            width: 30px;
+            height: 2px;
+            background: white;
+        }
+        
+        .park-logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .logos-container {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                bottom: 40px;
+            }
+            
+            .main-title {
+                letter-spacing: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="main-title">
+            <div class="title-line1">INNOVATIVE AI</div>
+            <div class="title-line2">HACKATHON 2025</div>
+        </div>
+        
+        <div class="logos-container">
+            <div class="logo academy-logo">
+                <span class="academy-icon">&lt;</span>
+                <div>
+                    <div>International</div>
+                    <div>Coding</div>
+                    <div>Academy</div>
+                </div>
+                <span class="academy-icon">&gt;</span>
+            </div>
+            
+            <div class="logo munster-logo">
+                <div class="munster-lines">
+                    <div class="munster-line"></div>
+                    <div class="munster-line"></div>
+                    <div class="munster-line"></div>
+                </div>
+                <div>
+                    <div>Universität</div>
+                    <div>Münster</div>
+                </div>
+            </div>
+            
+            <div class="logo">
+                <div class="logo-icon">21</div>
+            </div>
+            
+            <div class="logo park-logo">
+                <div style="width: 40px; height: 40px; border: 2px solid white; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <div style="font-size: 20px;">⚪</div>
+                </div>
+                <div>
+                    <div>IT PARK</div>
+                    <div>UZBEKISTAN</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
